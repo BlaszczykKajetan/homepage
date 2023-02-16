@@ -1,9 +1,15 @@
-console.log("cześć!")
-
-let przycisk = document.querySelector(".przycisk")
-let zdjecie = document.querySelector(".zdjecie")
-
-console.log(przycisk)
-przycisk.addEventListener("click", () => {
-    zdjecie.remove();
-});
+{  
+    const welcome = () => {
+        console.log("Hello to all frontend developers :D");
+    }
+welcome();
+    const deletePhoto = () => {
+        const button = document.querySelector(".js-button");
+        const photo = document.querySelector(".js-image");
+    
+        button.addEventListener("click", () => {
+            photo.remove();
+        });
+    }
+deletePhoto();
+}
