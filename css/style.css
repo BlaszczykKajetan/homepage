@@ -1,11 +1,8 @@
-.wszystko {
-    background-color: #ffd9004f;
+html {
+    box-sizing: border-box;
+
 }
 
-.przedstawienie {
-    background-color: #80808094;
-}
-
-.zainteresowania {
-    background-color: #80808094;
+*, ::after ::before {
+    box-sizing: inherit;
 }
